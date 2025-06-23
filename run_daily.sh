@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+source .venv/bin/activate
+python preprocess.py
+python embed.py
+python cluster.py
+python summarise.py
+python publish.py

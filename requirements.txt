@@ -1,0 +1,6 @@
+pandas
+openai==0.28.1         # ★古いAPIのまま使えるバージョンを固定
+hdbscan
+scikit-learn
+pyyaml
+tqdm

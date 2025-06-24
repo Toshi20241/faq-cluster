@@ -5,3 +5,5 @@ python embed.py
 python cluster.py
 python summarise.py
 python publish.py
+python trend.py
+python alert.py

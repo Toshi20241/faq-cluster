@@ -21,7 +21,7 @@ Slack からエクスポートした Q&A（jsonl）30 件を
 ```mermaid
 flowchart LR
   subgraph run_daily.sh
-    P[preprocess] --> E[embed]\n(OpenAI)
+    P[preprocess] --> E[embed(OpenAI)]
     E --> C[cluster]
     C --> S[summarise]
     S --> H[publish html]

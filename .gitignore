@@ -1,0 +1,8 @@
+# virtual env
+.venv/
+# cache & bytecode
+__pycache__/
+*.pyc
+# large intermediates
+emb.npy
+*.dylib

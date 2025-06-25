@@ -6,3 +6,4 @@ __pycache__/
 # large intermediates
 emb.npy
 *.dylib
+.env

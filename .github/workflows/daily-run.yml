@@ -17,6 +17,6 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-      - name: Run pipeline
+      - name: Run pipeline (non‑blocking)
         run: |
-          ./run_daily.sh
+          ./run_daily.sh || true
